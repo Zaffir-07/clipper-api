@@ -1,0 +1,15 @@
+{
+  "name": "clip-video-api",
+  "version": "1.0.0",
+  "description": "REST API to clip videos using ffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "uuid": "^9.0.0"
+  }
+}
